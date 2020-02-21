@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6aeae"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.raju.mainproject.Fruits2Activity"
+    tools:showIn="@layout/activity_fruits2">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/mango"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mangu"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="আম"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/katal"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/katal"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="কাঁঠাল"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/jam"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/jam"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="জাম"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/kola"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kola"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="কলা"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/apel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/apel"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="আপেল"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/angur"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/angur"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="আঙুর"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/anaros"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/anaros"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="আনারস"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/komla"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/komla"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="কমলা"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/lichu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/lichu"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="লিচু"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/pape"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pape"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="পেঁপে"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/peyera"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/peyara"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="পেয়ারা"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/tormuj"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tormuj"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="তরমুজ"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/dalim"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/dalim"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ডালিম"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/jolpai"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/jolpai"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="জলপাই"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/kul"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kul"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="কুল"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:onClick="fruit"
+                android:id="@+id/amloki"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/amloki"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="আমলকি"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

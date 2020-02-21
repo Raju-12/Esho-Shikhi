@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.raju.mainproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThirdActivity"
+            android:label="@string/title_activity_third"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ColorActivity"
+            android:label="@string/title_activity_color"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ColorSecondActivity"
+            android:label="@string/title_activity_color_second"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:label="@string/title_activity_alphabet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnglishGalary"
+            android:label="@string/title_activity_english_galary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AnimalActivity"
+            android:label="@string/title_activity_animal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FlowerActivity"
+            android:label="@string/title_activity_flower"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AnimalWorld"
+            android:label="@string/title_activity_animal_world"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BirdActivity"
+            android:label="@string/title_activity_bird"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FruitsActivity"
+            android:label="@string/title_activity_fruits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FolActivity"
+            android:label="@string/title_activity_fol"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MathActivity"
+            android:label="@string/title_activity_math"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnglishLearn"
+            android:label="@string/title_activity_english_learn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BanglaActivity"
+            android:label="@string/title_activity_bangla"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlayActivity"
+            android:label="@string/title_activity_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CapitalLetter"
+            android:label="@string/title_activity_capital_letter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fruits2Activity"
+            android:label="@string/title_activity_fruits2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

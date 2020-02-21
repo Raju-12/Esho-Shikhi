@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#37943a"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.raju.mainproject.CapitalLetter"
+    tools:showIn="@layout/activity_capital_letter">
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <TableRow>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/A"
+            android:onClick="capitall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ac"/>
+           />
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/B"
+            android:onClick="capitall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bc"/>
+        />
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/C"
+            android:onClick="capitall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ccc"/>
+        />
+
+    </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/D"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/E"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ec"/>
+            />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/F"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fc"/>
+            />
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/G"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/H"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hc"/>
+            />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/I"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic"/>
+            />
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/J"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/K"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kc"/>
+            />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/L"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lc"/>
+            />
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/M"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/N"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nc"/>
+            />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/O"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/oc"/>
+            />
+
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/P"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Q"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qc"/>
+            />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/R"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rc"/>
+            />
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/S"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/T"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tc"/>
+            />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/U"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uc"/>
+            />
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/V"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/w"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wc"/>
+            />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/X"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xc"/>
+            />
+
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Y"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yc"/>
+            />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Z"
+                android:onClick="capitall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zc"/>
+            />
+
+        </TableRow>
+
+</TableLayout>
+
+</ScrollView>

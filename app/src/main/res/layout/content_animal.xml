@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.raju.mainproject.AnimalActivity"
+    tools:showIn="@layout/activity_animal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/tiger"
+                        android:onClick="hunt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bag"/>
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tiger(বাঘ)"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/lion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shinho"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lion(সিংহ)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/hati"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hati"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Elephant(হাতি)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/bear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bear"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bear(ভালুক)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/hyena"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hyena"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hyena(হায়না)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/horse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/horse"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Horse(ঘোড়া)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/zebra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/zebra"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Zebra(জেব্রা)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/banor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/banor"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Monkey(বানর)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/nekre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/nakre"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Wolf(নেকড়ে)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/gonder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gonder"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rhinoceros(গণ্ডার)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/bang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bang"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Frog(ব্যাঙ)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/garu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/garu"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cow(গরু)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/mohish"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/mohish"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Buffalo(মহিষ)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/eidur"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/eidur"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mouse(ইুঁদুর)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/fox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fox"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fox(শিয়াল)"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/chagol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/chagol"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Goat(ছাগল)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/vera"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vera"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sheep(ভেড়া)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/sap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sap"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Snake(সাপ)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/dog"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/dog"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dog(কুকুর)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/biral"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cat"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cat(বিড়াল)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/hash"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/has"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Duck(হাঁস)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="hunt"
+                        android:id="@+id/murgi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/murgi"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="#22ff38"
+                        android:textSize="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hen(মুরগি)"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

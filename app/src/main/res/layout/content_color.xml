@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22e9ff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.raju.mainproject.ColorActivity"
+    tools:showIn="@layout/activity_color">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/red"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/red"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/redtextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/red"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="RED"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/redtextview"
+                    android:layout_toRightOf="@+id/red"
+                    android:text="লাল"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+                <ImageView
+                    android:id="@+id/credmusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/red"
+                    android:src="@drawable/music"/>
+
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/blue"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/blue"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/bluetextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/blue"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="BLUE"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bluetextview"
+                    android:layout_toRightOf="@+id/blue"
+                    android:text="নীল"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/cbluemusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/blue"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/black"
+                android:onClick="coloranimation"
+                android:layout_alignParentTop="true"
+                android:layout_width="100dp"
+                android:src="@drawable/black"
+                android:layout_marginRight="18dp"
+                android:layout_height="80dp"/>
+
+
+            <TextView
+                android:id="@+id/blacktextview"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/black"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="5dp"
+                android:text="BLACK"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blacktextview"
+                android:layout_toRightOf="@+id/black"
+                android:text="কালো"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:textSize="30dp"
+                android:textColor="#8b8b8b" />
+
+            <ImageView
+                android:id="@+id/cblacknmusic"
+                android:onClick="music"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_toRightOf="@+id/black"
+                android:src="@drawable/music"/>
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/white"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/white"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/whitetextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/white"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="WHITE"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/whitetextview"
+                    android:layout_toRightOf="@+id/white"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/whitemusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/white"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/green"
+                android:onClick="coloranimation"
+                android:layout_alignParentTop="true"
+                android:layout_width="100dp"
+                android:src="@drawable/green"
+                android:layout_marginRight="18dp"
+                android:layout_height="80dp"/>
+
+
+            <TextView
+                android:id="@+id/greentextview"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/green"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="5dp"
+                android:text="GREEN"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/greentextview"
+                android:layout_toRightOf="@+id/green"
+                android:text="কালো"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:textSize="30dp"
+                android:textColor="#8b8b8b" />
+
+            <ImageView
+                android:id="@+id/cgreenmusic"
+                android:onClick="music"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_toRightOf="@+id/green"
+                android:src="@drawable/music"/>
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/yellow"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/yellow"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/yellowtextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/yellow"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="YELLOW"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/yellowtextview"
+                    android:layout_toRightOf="@+id/yellow"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/yellowmusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/yellow"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/violet"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/violet"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/violettextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/violet"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="VIOLET"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/violettextview"
+                    android:layout_toRightOf="@+id/violet"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/violetmusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/violet"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/brown"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/brown"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/browntextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/brown"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="BROWN"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/browntextview"
+                    android:layout_toRightOf="@+id/brown"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/brownmusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/brown"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/orange"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/orange"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/orangetextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/orange"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="ORANGE"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/orangetextview"
+                    android:layout_toRightOf="@+id/orange"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/orangemusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/orange"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/navyblue"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/navyblue"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/navybluetextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/navyblue"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="NAVY BLUE"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/navybluetextview"
+                    android:layout_toRightOf="@+id/navyblue"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/navybluemusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/navyblue"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/gray"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/gray"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/graytextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/gray"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="GRAY"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/graytextview"
+                    android:layout_toRightOf="@+id/gray"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/graymusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/gray"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+                <ImageView
+                    android:id="@+id/indigo"
+                    android:onClick="coloranimation"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:src="@drawable/indigo"
+                    android:layout_marginRight="18dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:id="@+id/indigotextview"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/indigo"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="5dp"
+                    android:text="INDIGO"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/indigotextview"
+                    android:layout_toRightOf="@+id/indigo"
+                    android:text="কালো"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="30dp"
+                    android:textColor="#8b8b8b" />
+
+                <ImageView
+                    android:id="@+id/indigomusic"
+                    android:onClick="music"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_toRightOf="@+id/indigo"
+                    android:src="@drawable/music"/>
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+
+</HorizontalScrollView>
+
+
+</ScrollView>
